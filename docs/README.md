@@ -8,7 +8,7 @@ My-RPC-Framework 是一款基于 Nacos 实现的 RPC 框架。网络传输实现
 
 ## 架构
 
-![系统架构](./images/architecture.png)
+![系统架构](./img/architecture.png)
 
 消费者调用提供者的方式取决于消费者的客户端选择，如选用原生 Socket 则该步调用使用 BIO，如选用 Netty 方式则该步调用使用 NIO。如该调用有返回值，则提供者向消费者发送返回值的方式同理。
 
